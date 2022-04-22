@@ -1,0 +1,46 @@
+# Alguns comandos do CMD
+
+- cd: muda o diretório corrente para outro a partir da pasta atual
+- cd.. : volta um diretório anterior
+- Dir: mostra a lista de arquivos de um diretório
+- Cls: limpa a tela
+- Mkdir: cria um diretório a partir da pasta corrente
+- Rmdir: remove um diretório a partir da unidade corrente
+	Ex: c:\rmdir pasta1\pasta2 -> remove a pasta2
+- Del: remove um arquivo a partir da pasta corrente
+- Ren: renomeia o nome de um arquivo
+	Ex: c:\ren arquivo1.txt arquivo2.txt -> o nome é alterado para "arquivo2"
+- Copy: copia arquivos de uma pasta para outra
+- Move: move
+- echo: exibe uma mensagem na tela
+- echo hello > vinny.txt: cria um arquivo txt com o nome vinny e a mensagem "hello" inserida
+
+* DICAS:
+	- Tab: autocompleta o nome de uma pasta ou arquivo
+
+# Alguns comandos do Git
+
+- git init: inicializa um repositório local git
+- git status: verifica o estado dos arquivos
+- git add (nome do arquivo): envia o arquivo para o Stage
+- git add . -> adiciona todos os arquivos no Stage
+- git add -A: adiciona todos os arquivos modificados no Stage
+- git commit -m "mensagem explicando a mudança no código": envia o que está no Stage para o HEAD
+- git remote add origin <url do repositório>: adiciona a url do repositório remoto em que os arquvios serão mantidos
+- git remote -v: lista o url dos repositórios remotos atuais
+- git push origin master: envia os arquivos para o repositório remoto em que foi especificado pelo comando remot
+- git config:  permite ver e atribuir variáveis de configuração que controlam todos os aspectos de como o Git aparece e opera
+- git config --list: lista as configurações
+- ls: lista arquivos e diretorios
+
+* Configuração de identidade:
+
+- git config --global user.name "Fulano de Tal"
+- git config --global user.email fulanodetal@exemplo.br
+
+#Criar chave ssh
+
+- ssh-keygen -t <tipo de criptografia ex: ed25519> <email>
+
+
+ 
